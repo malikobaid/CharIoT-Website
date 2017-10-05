@@ -1,0 +1,270 @@
+/*!
+ * Start Bootstrap - Landing Page (http://startbootstrap.com/template-overviews/landing-page)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
+ */
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    color: #f8f8f8;
+}
+
+h1{
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.intro-header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: #f8f8f8;
+  background: url(../img/intro-bg.png) no-repeat center center;
+  background-size: cover;
+}
+
+.intro-message {
+  position: relative;
+  text-transform: uppercase;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.navlist-custom{
+  color: #bdbdbd;
+  text-transform: uppercase;
+}
+
+.navbar-custom{
+    background-color: #181818;
+    background: rgba(24, 24, 24, 0.6);
+}
+
+.navbrand-custom{
+  color: #bdbdbd;
+  font-weight: bold;
+}
+
+hr {
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  max-width: 50px;
+  border-width: 4px;
+  border-color: #69e631;}
+
+.hr-center {
+    margin: auto;
+    max-width: 50px;
+    border-width: 4px;
+    padding-bottom: 5%;
+    text-align: center;
+    position: relative;
+    border-color: #69e631;}
+
+
+.intro-message>h1 {
+  margin: 0;
+  font-size: 5em;
+}
+
+.intro-divider {
+  width: 400px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.section-splitter{
+  background-color: #2e2e2e;
+  min-height: 20px;
+}
+
+
+.content-about-us{
+  padding:10%;
+  background-color: #5a5a5a;
+  color: #f8f8f8;
+}
+
+.content-section-advantages{
+  background-color: #181818;
+  color: #f8f8f8;
+  padding: 5%;
+}
+
+.content-section-partners{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #f8f8f8;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 3em;
+}
+
+.partners-title{
+  color : #585858;
+}
+
+.intro-message>h3 {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.intro-social-buttons i {
+  font-size: 80%;
+}
+
+.contact-us {
+  text-align: center;
+  position: relative;
+  text-transform: uppercase;
+  text-shadow: none;
+  padding-top: 5%;
+}
+
+.network-name {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.advantage {
+  text-transform: uppercase;
+}
+
+.section-heading {
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.img-responsive {
+    height: auto;    // the height will be in the images correct aspect ratio.
+    max-width: 100%; //Keep the image width the same as it's parents container.
+}
+
+.section-heading-spacer {
+  float: left;
+  width: 200px;
+  border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+  padding: 100px 0;
+  color: #f8f8f8;
+  background: url(../img/london-bg.png) no-repeat center center;
+  background-size: cover;
+}
+
+.banner h2 {
+  margin: 0;
+  font-size: 3em;
+}
+
+.banner ul {
+  margin-bottom: 0;
+}
+
+.navlist-custom-active{
+  color: #69e631 !important;
+  text-transform: uppercase;
+}
+
+.button-custom-square{
+  border-radius: 0;
+  background-color: #69e631;
+  border: 2px solid #69e631;
+	color: #181818;
+}
+
+.button{
+  text-transform: uppercase;
+}
+
+.banner-social-buttons {
+  float: right;
+  margin-top: 0;
+}
+
+@media(max-width:1199px) {
+  ul.banner-social-buttons {
+    float: left;
+    margin-top: 15px;
+  }
+}
+
+@media(max-width:1150px) {
+  .notShowWhen2Small{
+    display:none;
+  }
+}
+
+@media(max-width:767px) {
+  .banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 3em;
+  }
+  ul.banner-social-buttons>li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  ul.banner-social-buttons>li:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media(max-width:767px) {
+  .intro-message {
+    padding-bottom: 15%;
+  }
+  .intro-message>h1 {
+    font-size: 3em;
+  }
+  ul.intro-social-buttons>li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  ul.intro-social-buttons>li:last-child {
+    margin-bottom: 0;
+  }
+  .intro-divider {
+    width: 100%;
+  }
+}
+
+.imageClip{
+margin: 0 auto;
+overflow:hidden;
+}
+
+footer {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #181818;
+}
+
+p.copyright {
+  margin: 15px 0 0;
+}
+
+@media screen and (min-width: 0px) and (max-width: 574px) {
+  #arrow-vertical { display: block; }  /* show it on small screens */
+  #arrow-horizontal { display: none; }
+}
+
+
+@media screen and (min-width: 575px)  {
+  #arrow-vertical { display: none; }   /* hide it elsewhere */
+  #arrow-horizontal { display: block; }
+}

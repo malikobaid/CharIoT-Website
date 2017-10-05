@@ -1,0 +1,147 @@
+
+html,body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    color: #f8f8f8;
+}
+
+.main-section{
+  background-color: #5a5a5a;
+}
+
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
+}
+
+.publication{
+  padding-bottom: 20px;
+}
+
+.button-hover:hover {
+  background-color: #69e631;
+  color : #181818;
+}
+
+.navbar-custom{
+    background-color: #181818;
+    background: rgba(24, 24, 24, 0.8);
+    min-height: : 150px;
+}
+
+.navbrand-custom{
+  color: #f8f8f8;
+}
+
+.navlist-custom{
+  color: #bdbdbd;
+  text-transform: uppercase;
+}
+
+.navlist-custom-active{
+  color: #69e631 !important;
+  text-transform: uppercase;
+}
+
+hr {
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  max-width: 50px;
+  border-width: 4px;
+  border-color: #69e631;}
+
+.hr-center {
+    margin: auto;
+    max-width: 50px;
+    border-width: 4px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 5px;
+    border-color: #69e631;}
+
+.intro-header {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #181818;
+}
+
+.intro-message{
+  color: #f8f8f8;
+}
+
+.button-custom-square{
+  text-transform: uppercase;
+  margin-right: 10px;
+  border-radius: 0;
+	color: #181818;
+}
+
+.btn-light{
+  color: #585858;
+  background-color: #f8f8f8;
+  border-color: #585858;
+}
+
+.btn-dark{
+  color: #EBEBEB;
+  background-color: #424242;
+  border-color: #585858;
+}
+
+.person-info{
+  padding : 5%;
+}
+
+h1{
+  color : #f8f8f8;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+p{
+  color: #f8f8f8;
+}
+
+body {
+  background-color: #EBEBEB;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 50px 0;
+  background-color: #181818;
+}
+
+.footer-text{
+  color: #EBEBEB;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 574px) {
+  #arrow-vertical { display: block; }  /* show it on small screens */
+  #arrow-horizontal { display: none; }
+}
+
+
+@media screen and (min-width: 575px)  {
+  #arrow-vertical { display: none; }   /* hide it elsewhere */
+  #arrow-horizontal { display: block; }
+}
