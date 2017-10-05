@@ -6,7 +6,7 @@ A website for the CharIoT project, based on the [Landing Page](http://startboots
 ## Setup
 - Download the repository (github login required)
 ```
-git clone https://github.com/StBogdan/CharIoT-Website.git  
+git clone https://github.com/malikobaid/CharIoT-Website.git  
 ```
 - Place into the root of the web server (in the case of apache2, "/var/www/html")
 (please note that this these commands may overwrite files present in the directory)
